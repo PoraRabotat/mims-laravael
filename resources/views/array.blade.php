@@ -6,15 +6,16 @@
     <title>Каталог товаров</title>
     <style>
     </style>
+    @Vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
 
 <div class="controls">
-    <a href="{{ route('home') }}" class="btn-home">← На главную</a>
+    <a href="{{ route('home') }}" class="btn-home"> На главную</a>
     <strong>Действия:</strong>
     <a href="{{ route('array.shuffle') }}" class="btn-shuffle">Перемешать</a>
     <a href="{{ route('array.sort') }}" class="btn-sort">Сортировать (по цене)</a>
-    <a href="{{ route('array.filter') }}" class="btn-filter">Фильтр (>1000 руб)</a>
+    <a href="{{ route('array.filter') }}" class="btn-filter">Фильтр (Больше >1000 руб)</a>
 </div>
 
 <h2>Список товаров</h2>

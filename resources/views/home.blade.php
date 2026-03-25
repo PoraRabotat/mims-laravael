@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная страница</title>
+     @Vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
 
@@ -17,7 +18,7 @@
 
 <main>
     <h2>Добро пожаловать на главную!</h2>
-    <img src="{{ asset('img/dsr.jpg') }}" alt="Пример картинки">
+    <img src="/img/dsr.jpeg" alt="Пример картинки">
     <p>Здесь какой-то приветственный текст.</p>
 </main>
 
