@@ -6,7 +6,7 @@
     <title>Каталог товаров</title>
     <style>
     </style>
-    @Vite(['resources/css/app.css', 'resources/js/app.js'])
+    @Vite(['resources/css/app.css', 'resources/js/app.js']) 
 </head>
 <body>
 

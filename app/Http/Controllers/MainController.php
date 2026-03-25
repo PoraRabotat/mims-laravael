@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 class MainController extends Controller
+    // табличка!!!!!
 {
     public $products = [
         ['id' => 1, 'title' => 'Сова', 'price' => 1500, 'path' => '72f.jpg'],
@@ -24,7 +25,7 @@ class MainController extends Controller
         return view('array', ['array' => $this->products]);
     }
 
-    // НЕЗАБЫТЬ Самостоятельная!!
+    // НАПОМИНАЛКА сделать!!
 
     // 1. ПЕРЕМЕШКА МАССИВА
     // 2. СОРТИРОВКА
